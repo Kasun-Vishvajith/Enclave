@@ -1,15 +1,15 @@
 <div align="center">
 
 ```
-███╗   ██╗███████╗██╗  ██╗██╗   ██╗███████╗
-████╗  ██║██╔════╝╚██╗██╔╝██║   ██║██╔════╝
-██╔██╗ ██║█████╗   ╚███╔╝ ██║   ██║███████╗
-██║╚██╗██║██╔══╝   ██╔██╗ ██║   ██║╚════██║
-██║ ╚████║███████╗██╔╝ ██╗╚██████╔╝███████║
-╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+███████╗███╗   ██╗ ██████╗██╗      █████╗ ██╗   ██╗███████╗
+██╔════╝████╗  ██║██╔════╝██║     ██╔══██╗██║   ██║██╔════╝
+█████╗  ██╔██╗ ██║██║     ██║     ███████║██║   ██║█████╗  
+██╔══╝  ██║╚██╗██║██║     ██║     ██╔══██║╚██╗ ██╔╝██╔══╝  
+███████╗██║ ╚████║╚██████╗███████╗██║  ██║ ╚████╔╝ ███████╗
+╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝
 ```
 
-### *Your universe. Inside your phone.*
+### *Your hidden territory. Inside your phone.*
 
 <br/>
 
@@ -21,7 +21,7 @@
 
 <br/>
 
-> **Nexus** is not just an app. It's a dimension living inside your Android device —
+> **Enclave** is not just an app. It's a dimension living inside your Android device —
 > a self-contained virtual space that holds your mini-apps, tools, and shortcuts,
 > all wrapped in buttery-smooth animations and a stunning dark UI.
 
@@ -31,11 +31,11 @@
 
 ---
 
-## ✦ What is Nexus?
+## ✦ What is Enclave?
 
-Imagine opening your phone and stepping into a **personal universe** — your own space, your own apps, your own rules. That's Nexus.
+Imagine opening your phone and stepping into a **personal universe** — your own space, your own apps, your own rules. That's Enclave.
 
-Nexus is a **Virtual Space Application** for Android. It acts as a beautiful mini-launcher that lives *inside* a single app. No root required. No system modifications. Just pure, fluid experience.
+Enclave is a **Virtual Space Application** for Android. It acts as a beautiful mini-launcher that lives *inside* a single app. No root required. No system modifications. Just pure, fluid experience.
 
 You get:
 - 🌌 A stunning animated virtual space as your home
@@ -45,11 +45,11 @@ You get:
 
 ---
 
-## ✦ Why Nexus Exists
+## ✦ Why Enclave Exists
 
 Most phones are cluttered. Apps everywhere. No personality. No flow.
 
-Nexus gives you **a space that is entirely yours** — organized, beautiful, and blazing fast. Think of it like having a premium private dashboard inside your phone. Everything you need, nothing you don't, wrapped in a UI that actually feels good to use every single day.
+Enclave gives you **a space that is entirely yours** — organized, beautiful, and blazing fast. Think of it like having a premium private dashboard inside your phone. Everything you need, nothing you don't, wrapped in a UI that actually feels good to use every single day.
 
 ---
 
@@ -80,7 +80,7 @@ Nexus gives you **a space that is entirely yours** — organized, beautiful, and
 
 ```
 ┌─────────────────────────────────────────────────┐
-│                    NEXUS CORE                   │
+│                    ENCLAVE CORE                   │
 ├─────────────────┬───────────────────────────────┤
 │  Language       │  Kotlin 2.0                   │
 │  UI             │  Jetpack Compose (BOM Latest)  │
@@ -102,7 +102,7 @@ Nexus gives you **a space that is entirely yours** — organized, beautiful, and
 
 ## ✦ Architecture
 
-Nexus follows **Clean Architecture** with a unidirectional data flow:
+Enclave follows **Clean Architecture** with a unidirectional data flow:
 
 ```
                         ┌─────────────┐
@@ -130,7 +130,7 @@ Nexus follows **Clean Architecture** with a unidirectional data flow:
 ## ✦ Project Structure
 
 ```
-NexusApp/
+EnclaveApp/
 ├── 📁 core/
 │   ├── navigation/       → Routes & NavGraph
 │   ├── theme/            → Colors, Typography, Shapes
@@ -168,10 +168,10 @@ Make sure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nexus-virtual-space.git
+git clone https://github.com/yourusername/enclave-virtual-space.git
 
 # Navigate into the project
-cd nexus-virtual-space
+cd enclave-virtual-space
 
 # Open in Android Studio
 # File → Open → select the project folder
@@ -191,7 +191,7 @@ cd nexus-virtual-space
 
 ## ✦ Animation Philosophy
 
-Nexus is built on one rule: **every interaction must feel alive.**
+Enclave is built on one rule: **every interaction must feel alive.**
 
 We use **spring physics** — not just easing curves — so animations feel physical and natural, never robotic.
 
@@ -213,12 +213,12 @@ Performance targets:
 
 ## ✦ Home Screen Shortcuts
 
-Nexus lets you **pin any mini-app directly to your Android home screen** — one tap and you're inside your space, directly in the right app. No unlocking. No navigating. Just instant access.
+Enclave lets you **pin any mini-app directly to your Android home screen** — one tap and you're inside your space, directly in the right app. No unlocking. No navigating. Just instant access.
 
 ```
 Home Screen Shortcut
        ↓
-Opens Nexus
+Opens Enclave
        ↓
 Deep links directly into the pinned mini-app
        ↓
@@ -253,14 +253,14 @@ Phase 3 ──── Custom Themes, Biometric Lock
     │
 Phase 4 ──── Cloud Sync, Multi-Space Support
     │
-Phase 5 ──── Nexus Store (community mini-apps)
+Phase 5 ──── Enclave Store (community mini-apps)
 ```
 
 ---
 
 ## ✦ Contributing
 
-Nexus is in active development. Contributions are welcome!
+Enclave is in active development. Contributions are welcome!
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/your-feature`
@@ -277,7 +277,7 @@ Please follow the existing code style and architecture patterns.
 ```
 MIT License
 
-Copyright (c) 2026 Nexus
+Copyright (c) 2026 Enclave
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -307,7 +307,7 @@ Built with love using:
 <br/>
 
 ```
-N E X U S  —  Your universe. Inside your phone.
+E N C L A V E  —  Your hidden territory. Inside your phone.
 ```
 
 <br/>
